@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+
+
+
+<span class="menuPanel" id="mouseOver"><a href="<c:url value='/index'/>" 			id="home">		홈 페이지</a></span>
+<span class="menuPanel" id="mouseOver"><a href="<c:url value='/signUp'/>"  			id="signUp">	회원가입</a></span>
+<span class="menuPanel" id="mouseOver"><a href="<c:url value='/login'/>"			id="login">		로그인</a></span>
+<span class="menuPanel" id="mouseOver"><a href="<c:url value='/recommendBook'/>" 	id="recommendBook">	추천도서 검색</a></span>
+<span class="menuPanel" id="mouseOver"><a href="<c:url value='/post' />"			id="post">		게시글 작성</a></span>
+ 
+ 
+<!-- login flag를 검사 시 필요한 jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 

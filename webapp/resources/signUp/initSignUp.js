@@ -1,0 +1,7 @@
+
+function initSignUp() {
+//	menuInit();
+//	joinEventListener();
+	
+	
+}

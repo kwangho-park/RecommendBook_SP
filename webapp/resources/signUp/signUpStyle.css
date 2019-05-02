@@ -1,0 +1,42 @@
+
+
+
+/* tag 단위 css */
+ol{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/* property 단위 css */
+
+.signUpInfo{
+    display : inline-block;
+    
+    margin : 5px;
+    
+    /* web form�� �߾����ĸ� ���߱� ���� ����*/
+	width : 45%;
+    text-align: right;
+}
+
+	
+.addressInfo{
+    display : inline-block;
+    
+    margin : 5px;
+    
+    /* web form�� �߾����ĸ� ���߱� ���� ����*/
+	width : 50%;
+    text-align: right;
+}
+
+
+.addressLine{
+	display : block;
+	border : 3px solid gray;
+}
